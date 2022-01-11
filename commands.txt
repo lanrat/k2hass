@@ -1,0 +1,6 @@
+./fbink -g file=/mnt/us/linkss/screensavers/00002_hass.png
+./fbink -g file=/mnt/us/linkss/screensavers/00002_hass.png,w=-1,y=500
+./fbink -g file=/mnt/us/linkss/screensavers/00002_hass.png,x=400
+./fbink -c
+./fbdepth -r 1
+./fbdepth -r 0
