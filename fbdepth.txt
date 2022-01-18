@@ -1,0 +1,19 @@
+
+FBDepth (via FBInk v1.24.0 for Kindle)
+
+Usage: fbdepth [-d] <bpp> [-r] <rota>
+
+Tiny tool to set the framebuffer bitdepth and/or rotation on eInk devices.
+
+OPTIONS:
+	-d, --depth <8|16|24|32>		Switch the framebuffer to the supplied bitdepth.
+	-h, --help				Show this help message.
+	-v, --verbose				Toggle printing diagnostic messages.
+	-q, --quiet				Toggle hiding diagnostic messages.
+	-g, --get				Just output the current bitdepth to stdout.
+	-G, --getcode				Just exit with the current bitdepth as exit code.
+	-r, --rota <0|1|2|3>		Switch the framebuffer to the supplied rotation (Linux FB convention).
+	-o, --getrota				Just output the current rotation to stdout.
+	-O, --getrotacode			Just exit with the current rotation as exit code.
+	-H, --nightmode <on|off|toggle>		Toggle hardware inversion (8bpp only, safely ignored otherwise).
+
