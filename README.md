@@ -1,6 +1,15 @@
 
 # K2HASS
 
+## Kindle Config
+
+https://github.com/NiLuJe/FBInk
+https://www.mobileread.com/forums/showthread.php?t=203326
+https://www.mobileread.com/forums/showthread.php?t=233932
+https://www.mobileread.com/forums/showthread.php?t=225030
+https://www.mobileread.com/forums/showpost.php?p=1181285&postcount=8
+
+
 ### USB network conf
 
 `/etc/network/interfaces`
